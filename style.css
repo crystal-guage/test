@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: radial-gradient(#EEEEEE, #999999);
+    width: 100%;
+    height: 200px;
+    border-bottom: solid 2px #222222;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    font-size: 80px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.sub-title {
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+    display: inline-block;
+    font-size: 30px;
+    color: #000;
+}
+
+
+header p span {
+    color: #ffffff;
+}
+
+.main {
+    background: radial-gradient(#cccccc, #777777);
+    width: 100%;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 94%;
+    margin:0 auto;
+  }
+
+.th-no {
+    width: 5%;
+}
+.th-release {
+    width: 6%;
+}
+.th-title {
+    width: 26%;
+}
+.th-read {
+    width: 33%;
+}
+.th-signature {
+    width: 8%;
+}
+.th-scale {
+    width: 6%;
+}
+.th-bpm {
+    width: 6%;
+}
+.th-link {
+    width: 10%;
+}
+
+a {
+    border: solid 4px #444;
+    padding: 3px 15px;
+    background-color: #ccc;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #222;
+}
+  
+  table th,table td{
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+table td{
+    padding: 5 0;
+  }
+  
+  table th{
+    background-color: #333;
+    color: white;
+    border:solid 1px #eeeeee;
+    transition: background-color 0.5s;
+  }
+  table th:hover {
+      background-color: #c11;
+  }
+  
+  table td{
+    background: linear-gradient(#FFFFFF,#BBBBBB, #FFFFFF);
+    border:solid 1px #111111;
+  }
+  
+  .name{
+    background: linear-gradient(#FFFFFF,#EEEEEE, #FFFFFF);
+  }
+
+  .dur{
+    background: linear-gradient(#FFAAAA,#EEEEEE, #FFAAAA);
+  }
+
+  .moll{
+    background: linear-gradient(#AAAAFF,#EEEEEE, #AAAAFF);
+  }
+
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #11f;
+    /* background: linear-gradient(to top, #ff000073 0%, #ff880078 14.28%, #ffff0480 28.56%, #0bff0b78 42.85%, #00ffff73 57.14%, #0000ff7d 71.42%, #ff01ff73 85.71%, #ff00007d 100%) 0% center / 100% auto; */
+}
+::-webkit-scrollbar-track {
+    border-radius: 30px;
+    background: #eee;
+}
